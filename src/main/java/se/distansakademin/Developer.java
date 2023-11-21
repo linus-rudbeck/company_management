@@ -13,4 +13,8 @@ public class Developer extends Employee{
     public String getSound(){
         return "Woop woop!";
     }
+
+    public String getProgrammingLanguage() {
+        return programmingLanguage;
+    }
 }

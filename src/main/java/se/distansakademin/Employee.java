@@ -1,14 +1,12 @@
 package se.distansakademin;
 
-public class Employee {
+public class Employee extends Person{
 
-    private String name;
-
-    public Employee(String name){
-        this.name = name;
+    public Employee(String name) {
+        setName(name);
     }
 
-    public String getSound(){
+    public String getSound() {
         return "Aaow!";
     }
 
@@ -17,6 +15,13 @@ public class Employee {
     }
 
     public void setName(String name) {
-        this.name = name;
+        String firstCharacter = name.substring(0, 1).toUpperCase();
+        String rest = name.substring(1);
+        this.name = firstCharacter + rest;
+    }
+
+    @Override
+    public String eatFood() {
+        return "Nom nom nom!";
     }
 }

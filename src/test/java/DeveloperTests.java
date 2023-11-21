@@ -16,4 +16,14 @@ public class DeveloperTests {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void testGetProgrammingLanguage(){
+        var developer = new Developer("linus", "java");
+
+        var expected = "java";
+        var actual = developer.getProgrammingLanguage();
+
+        assertEquals(expected, actual);
+    }
 }
