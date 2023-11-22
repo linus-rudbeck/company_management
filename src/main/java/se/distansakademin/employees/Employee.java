@@ -1,6 +1,6 @@
-package se.distansakademin;
+package se.distansakademin.employees;
 
-public class Employee extends Person{
+public class Employee extends Person {
 
     public Employee(String name) {
         setName(name);

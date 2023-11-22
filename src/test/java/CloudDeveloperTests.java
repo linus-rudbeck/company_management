@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import se.distansakademin.CloudDeveloper;
+import se.distansakademin.employees.CloudDeveloper;
 import se.distansakademin.Website;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

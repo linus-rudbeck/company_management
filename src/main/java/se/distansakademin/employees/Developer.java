@@ -1,6 +1,8 @@
-package se.distansakademin;
+package se.distansakademin.employees;
 
-public class Developer extends Employee{
+import se.distansakademin.employees.Employee;
+
+public class Developer extends Employee {
 
     private String programmingLanguage;
 

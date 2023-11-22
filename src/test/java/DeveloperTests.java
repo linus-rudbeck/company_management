@@ -1,7 +1,6 @@
 
 import org.junit.jupiter.api.Test;
-import se.distansakademin.Developer;
-import se.distansakademin.Employee;
+import se.distansakademin.employees.Developer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

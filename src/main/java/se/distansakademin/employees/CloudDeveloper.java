@@ -1,6 +1,8 @@
-package se.distansakademin;
+package se.distansakademin.employees;
 
-public class CloudDeveloper extends Developer{
+import se.distansakademin.Website;
+
+public class CloudDeveloper extends Developer {
     public CloudDeveloper(String name, String programmingLanguage) {
         super(name, programmingLanguage);
     }
