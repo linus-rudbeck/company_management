@@ -24,5 +24,11 @@ public class Utilities {
         var output = input.toLowerCase();
         return output;
     }
+
+    public enum Level {
+        LOW,
+        MEDIUM,
+        HIGH
+    }
 }
 
